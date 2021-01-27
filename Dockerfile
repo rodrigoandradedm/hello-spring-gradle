@@ -1,4 +1,4 @@
-FROM openjdk:15.0.2-jdk as javabuild
+FROM openjdk:11.0-jdk as javabuild
 WORKDIR /build/
 COPY . /build/
 RUN ./gradlew assemble
