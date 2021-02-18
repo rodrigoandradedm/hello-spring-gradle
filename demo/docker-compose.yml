@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  spring-hello-world:
+    build: .
+    image: spring-gradle
+    ports:
+      - "8080:8080" #http://localhost:8080/hellodocker run -it --rm -v 'pwd':/build -p 8080:8080  
